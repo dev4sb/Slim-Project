@@ -1,0 +1,204 @@
+.container.model-btn
+{
+ text-align:right ;
+ margin: 0 auto;
+}
+.modal .close
+{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
+
+.modal-body div
+{
+    padding: 10px 0;
+}
+table tr th,.act-btn{
+    text-align: center;
+}
+#suc-msg
+{
+    display: none;
+    position: absolute;
+    top:1%;
+    left:45%;
+    background-color: rgb(188, 255, 188);
+    color: green;
+    padding:5px 10px;
+    border:1px solid rgb(188, 255, 188);
+    border-radius:5px;
+    font-size: 18px;
+    text-align: center;
+    z-index: 100;
+}
+#err-msg
+{
+    display: none;
+    position: absolute;
+    top:1%;
+    left:45%;
+    background-color:rgb(255, 176, 176);
+    color: Red;
+    padding:5px 10px;
+    border:1px solid rgb(255, 176, 176);
+    border-radius:5px; 
+    font-size: 18px;
+    text-align: center;
+    z-index: 100;
+}
+.error
+{
+    color:red;
+}
+#update-btn
+{
+    display: none;
+    text-align: right !important;
+}
+
+.delete-all-btn
+{
+    height:70px;
+}
+tr.no-record
+{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+.modal-body .image-box img
+{
+   max-width:150px !important;
+   max-height:150px !important;
+   display: none;
+}
+.tb-image-bx
+{
+    text-align: center;
+}
+.tb-show-img
+{
+    width: 70px;
+    height: 50px;
+}
+td,th
+{
+    vertical-align: middle;
+}
+
+.asc-dsc-btn 
+{
+
+    width: 10px;
+    position: relative;
+    display:inline-block;
+vertical-align:-4px;
+
+}
+.asc-dsc-btn i{
+    height:8px;
+    font-size: 13px;
+    display:block;
+}
+.asc-dsc-btn i:active {
+    color: grey;
+    font-size: 14px;
+}
+.pagination
+{
+    text-align: center;
+}
+
+
+.loader{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+  display: none;
+}
+.loader div {
+    height: 0   ;
+    width: 0;
+    padding: 15px;
+    border: 8px solid transparent;
+    border-right-color: rgb(107, 107, 107);
+    border-radius: 100px;
+    -webkit-animation: rotate 1s infinite linear;
+    /* left, top and position just for the demo! */
+    position: absolute;
+    left: 45%;
+    top: 40%;
+
+  }
+  
+  @-webkit-keyframes rotate {
+    /* 100% keyframe for  clockwise. 
+       use 0% instead for anticlockwise */
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  .page-item.disabled 
+  {
+      font-weight: bold;
+  
+  }
+  .page-item.disabled a.page-link
+  {
+    background-color: rgb(202, 202, 202);
+    color:rgb(0, 0, 0) !important;
+  }
+
+
+  /* Section1 */
+.section-1 
+{
+    text-align: center;
+    padding: 20px 0;
+
+}
+.section-1  h3
+{
+  font-size: 19px !important;
+  padding: 10px 0;
+  font-weight: 600 !important;
+  font-family: monospace !important;
+  
+}
+.section-1 img
+{
+width: 350px;
+height: 300px;
+margin: 3rem  0 3rem 0 ;
+}
+.change-btn-bx
+{
+
+}
+
+
+/* Section2 */
+
+.card
+{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.card div h3
+{
+ font-size: 21px !important;
+}
+.temperature
+{
+    font-size: 40px;
+    font-weight: bold;
+}
